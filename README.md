@@ -18,10 +18,10 @@ To run this project, you will need Python installed on your system, along with s
    git clone <your-repository-url>
    cd <repository-name>
 2. **Install Required Libraries**
-3. ```bash
+   ```bash
    pip install -r requirements.txt
 4. **Run the Steamlit App**
-5. ```bash
+   ```bash
    streamlit run app.py
 ## Files
 - `app.py`: The main Streamlit application script that provides the web interface.
