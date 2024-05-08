@@ -39,6 +39,6 @@ Contributions to this project are welcome. You can contribute in several ways:
 - Enhancing the model's accuracy or efficiency.
 - Adding new features to the Streamlit application.
 - Improving the user interface.
-
+  
 ## License
-Include a license here, typically this project would be licensed under the MIT License. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
