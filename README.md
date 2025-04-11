@@ -15,8 +15,8 @@ To run this project, you will need Python installed on your system, along with s
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
-   cd <repository-name>
+   git clone https://github.com/Z313PH/Stock-Market-Trend-Prediction-App.git
+   cd Stock-Market-Trend-Prediction-App
 2. **Install Required Libraries**
    ```bash
    pip install -r requirements.txt
