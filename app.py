@@ -14,6 +14,12 @@ st.title('Stock Trend Prediction')
 user_input = st.text_input('Enter Stock Ticker', 'AAPL')
 df = yf.download(user_input, start, end)
 
+# Check if data was successfully fetched
+if df.empty or 'Close' not in df.columns:
+    st.error("No data found for this ticker. Please enter a valid stock symbol.")
+    st.stop()
+
+
 # Describe the data
 st.subheader('Data from 2010 to 2023')
 st.write(df.describe())
