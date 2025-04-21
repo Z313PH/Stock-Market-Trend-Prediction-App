@@ -5,6 +5,7 @@ import pandas_datareader as data
 import yfinance as yf
 from tensorflow.keras.models import load_model
 import streamlit as st
+from datetime import datetime
 
 
 start = '2010-01-01'
