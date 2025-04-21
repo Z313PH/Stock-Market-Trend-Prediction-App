@@ -8,7 +8,7 @@ import streamlit as st
 
 
 start = '2010-01-01'
-end = '2024-12-31'
+end = datetime.today().strftime('%Y-%m-%d') 
 
 st.title('Stock Trend Prediction')
 user_input = st.text_input('Enter Stock Ticker', 'AAPL')
